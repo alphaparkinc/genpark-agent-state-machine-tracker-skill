@@ -1,0 +1,26 @@
+{
+  "name": "genpark-agent-state-machine-tracker-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - State machine flow controller for agent actions.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "state-machine",
+    "workflow"
+  ],
+  "inputs": {
+    "current_state": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "next_state": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
